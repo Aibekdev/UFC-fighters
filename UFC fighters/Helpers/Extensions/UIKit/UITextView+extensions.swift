@@ -7,7 +7,6 @@
 
 import UIKit
 
-//attributs: [(String : Int)]
 extension UITextView {
     func setupTextView(attributes: [(String, CGFloat)], textAlignment: NSTextAlignment, color: UIColor) {
         
