@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A70FD27F27E1F8140096D1C5 /* FightersListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70FD27E27E1F8140096D1C5 /* FightersListVC.swift */; };
+		A780EA0B2825795000FF039D /* UIImageView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A780EA0A2825795000FF039D /* UIImageView+extensions.swift */; };
+		A7B82B3B2840E04F00B9E410 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B82B3A2840E04F00B9E410 /* OnboardingView.swift */; };
+		A7B82B3D28466D3200B9E410 /* UILabel+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B82B3C28466D3200B9E410 /* UILabel+extensions.swift */; };
 		A7BF65EE27C76BD1006405C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BF65ED27C76BD1006405C3 /* AppDelegate.swift */; };
 		A7BF65F027C76BD1006405C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BF65EF27C76BD1006405C3 /* SceneDelegate.swift */; };
-		A7BF65F227C76BD1006405C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BF65F127C76BD1006405C3 /* ViewController.swift */; };
-		A7BF65F527C76BD1006405C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BF65F327C76BD1006405C3 /* Main.storyboard */; };
+		A7BF65F227C76BD1006405C3 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BF65F127C76BD1006405C3 /* OnboardingVC.swift */; };
 		A7BF65F727C76BD2006405C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BF65F627C76BD2006405C3 /* Assets.xcassets */; };
 		A7BF65FA27C76BD2006405C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BF65F827C76BD2006405C3 /* LaunchScreen.storyboard */; };
 		A7BF660527C76BD2006405C3 /* UFC_fightersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BF660427C76BD2006405C3 /* UFC_fightersTests.swift */; };
 		A7BF660F27C76BD2006405C3 /* UFC_fightersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BF660E27C76BD2006405C3 /* UFC_fightersUITests.swift */; };
 		A7BF661127C76BD2006405C3 /* UFC_fightersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BF661027C76BD2006405C3 /* UFC_fightersUITestsLaunchTests.swift */; };
+		A7DE4329281ED0D600D30DA4 /* UIColor+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE4328281ED0D600D30DA4 /* UIColor+extensions.swift */; };
+		A7DE432B281ED31900D30DA4 /* UITextView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE432A281ED31900D30DA4 /* UITextView+extensions.swift */; };
+		A7DE4330281EF99800D30DA4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE432F281EF99800D30DA4 /* Constants.swift */; };
+		A7DE4333281EF9BD00D30DA4 /* Localizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE4332281EF9BD00D30DA4 /* Localizations.swift */; };
+		A7DE4335281EFEFE00D30DA4 /* UIBotton+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE4334281EFEFE00D30DA4 /* UIBotton+extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A70FD27E27E1F8140096D1C5 /* FightersListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightersListVC.swift; sourceTree = "<group>"; };
+		A780EA0A2825795000FF039D /* UIImageView+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+extensions.swift"; sourceTree = "<group>"; };
+		A7B82B3A2840E04F00B9E410 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A7B82B3C28466D3200B9E410 /* UILabel+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+extensions.swift"; sourceTree = "<group>"; };
 		A7BF65EA27C76BD1006405C3 /* UFC fighters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UFC fighters.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BF65ED27C76BD1006405C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7BF65EF27C76BD1006405C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A7BF65F127C76BD1006405C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A7BF65F427C76BD1006405C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7BF65F127C76BD1006405C3 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
 		A7BF65F627C76BD2006405C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7BF65F927C76BD2006405C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7BF65FB27C76BD2006405C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +60,11 @@
 		A7BF660A27C76BD2006405C3 /* UFC fightersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UFC fightersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BF660E27C76BD2006405C3 /* UFC_fightersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFC_fightersUITests.swift; sourceTree = "<group>"; };
 		A7BF661027C76BD2006405C3 /* UFC_fightersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFC_fightersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A7DE4328281ED0D600D30DA4 /* UIColor+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extensions.swift"; sourceTree = "<group>"; };
+		A7DE432A281ED31900D30DA4 /* UITextView+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+extensions.swift"; sourceTree = "<group>"; };
+		A7DE432F281EF99800D30DA4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A7DE4332281EF9BD00D30DA4 /* Localizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizations.swift; sourceTree = "<group>"; };
+		A7DE4334281EFEFE00D30DA4 /* UIBotton+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBotton+extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7B82B3E2846853700B9E410 /* FightersList */ = {
+			isa = PBXGroup;
+			children = (
+				A70FD27E27E1F8140096D1C5 /* FightersListVC.swift */,
+			);
+			path = FightersList;
+			sourceTree = "<group>";
+		};
 		A7BF65E127C76BD1006405C3 = {
 			isa = PBXGroup;
 			children = (
@@ -101,8 +125,8 @@
 			children = (
 				A7BF65ED27C76BD1006405C3 /* AppDelegate.swift */,
 				A7BF65EF27C76BD1006405C3 /* SceneDelegate.swift */,
-				A7BF65F127C76BD1006405C3 /* ViewController.swift */,
-				A7BF65F327C76BD1006405C3 /* Main.storyboard */,
+				A7DE4323281EA16B00D30DA4 /* Screens */,
+				A7DE4327281ED0AB00D30DA4 /* Helpers */,
 				A7BF65F627C76BD2006405C3 /* Assets.xcassets */,
 				A7BF65F827C76BD2006405C3 /* LaunchScreen.storyboard */,
 				A7BF65FB27C76BD2006405C3 /* Info.plist */,
@@ -125,6 +149,78 @@
 				A7BF661027C76BD2006405C3 /* UFC_fightersUITestsLaunchTests.swift */,
 			);
 			path = "UFC fightersUITests";
+			sourceTree = "<group>";
+		};
+		A7DE4323281EA16B00D30DA4 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A7B82B3E2846853700B9E410 /* FightersList */,
+				A7DE4324281EA18800D30DA4 /* Onboarding */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A7DE4324281EA18800D30DA4 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE4325281EA1A600D30DA4 /* View */,
+				A7BF65F127C76BD1006405C3 /* OnboardingVC.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		A7DE4325281EA1A600D30DA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7B82B3A2840E04F00B9E410 /* OnboardingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A7DE4327281ED0AB00D30DA4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE4331281EF9A200D30DA4 /* Localizations */,
+				A7DE432E281EF97B00D30DA4 /* Constants */,
+				A7DE432C281EEF9D00D30DA4 /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A7DE432C281EEF9D00D30DA4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE432D281EF0DE00D30DA4 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A7DE432D281EF0DE00D30DA4 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE432A281ED31900D30DA4 /* UITextView+extensions.swift */,
+				A7B82B3C28466D3200B9E410 /* UILabel+extensions.swift */,
+				A7DE4328281ED0D600D30DA4 /* UIColor+extensions.swift */,
+				A780EA0A2825795000FF039D /* UIImageView+extensions.swift */,
+				A7DE4334281EFEFE00D30DA4 /* UIBotton+extensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		A7DE432E281EF97B00D30DA4 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE432F281EF99800D30DA4 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		A7DE4331281EF9A200D30DA4 /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE4332281EF9BD00D30DA4 /* Localizations.swift */,
+			);
+			path = Localizations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +329,6 @@
 			files = (
 				A7BF65FA27C76BD2006405C3 /* LaunchScreen.storyboard in Resources */,
 				A7BF65F727C76BD2006405C3 /* Assets.xcassets in Resources */,
-				A7BF65F527C76BD1006405C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +353,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7BF65F227C76BD1006405C3 /* ViewController.swift in Sources */,
+				A7DE4333281EF9BD00D30DA4 /* Localizations.swift in Sources */,
+				A7BF65F227C76BD1006405C3 /* OnboardingVC.swift in Sources */,
+				A7DE4329281ED0D600D30DA4 /* UIColor+extensions.swift in Sources */,
+				A7DE4335281EFEFE00D30DA4 /* UIBotton+extensions.swift in Sources */,
+				A780EA0B2825795000FF039D /* UIImageView+extensions.swift in Sources */,
+				A7B82B3D28466D3200B9E410 /* UILabel+extensions.swift in Sources */,
 				A7BF65EE27C76BD1006405C3 /* AppDelegate.swift in Sources */,
+				A7DE432B281ED31900D30DA4 /* UITextView+extensions.swift in Sources */,
 				A7BF65F027C76BD1006405C3 /* SceneDelegate.swift in Sources */,
+				A70FD27F27E1F8140096D1C5 /* FightersListVC.swift in Sources */,
+				A7DE4330281EF99800D30DA4 /* Constants.swift in Sources */,
+				A7B82B3B2840E04F00B9E410 /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +401,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A7BF65F327C76BD1006405C3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A7BF65F427C76BD1006405C3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A7BF65F827C76BD2006405C3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +540,6 @@
 				INFOPLIST_FILE = "UFC fighters/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +567,6 @@
 				INFOPLIST_FILE = "UFC fighters/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
