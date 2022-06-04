@@ -20,4 +20,13 @@ extension UILabel {
         self.backgroundColor = color
         self.translatesAutoresizingMaskIntoConstraints = false
     }
+    
+    func setupLabel(title: String, textSize: CGFloat, textAlignment: NSTextAlignment, backgroundColor: UIColor, textColor: UIColor) {
+        self.text = title
+        self.font.withSize(textSize)
+        self.textAlignment = textAlignment
+        self.backgroundColor = backgroundColor
+        self.textColor = textColor
+        self.translatesAutoresizingMaskIntoConstraints = false
+    }
 }

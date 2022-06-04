@@ -7,21 +7,26 @@
 
 import UIKit
 
+protocol OnboardingOutputAction: class {
+    func nextDidPress()
+}
+
 class OnboardingView: UIView {
     private let onboardingImageView = UIImageView()
     private let descriptionLabel = UILabel()
     private let nextButton = UIButton(type: .system)
-    
     private let attributesForLabel = [(Localizations.OnboardingVC.LabelAttributes.firstText,
-                                       Constants.OnboardingVC.LabelAttributes.firstTextSize)
-                                      ]
+                                       Constants.OnboardingVC.LabelAttributes.firstTextSize)]
     
+    weak var outputAction: OnboardingOutputAction?
+                                      
     override init(frame: CGRect) {
         super.init(frame: frame)
         configureViews()
         configureImageViews()
         configureLabels()
         configureButtons()
+        setupTargets()
         addSubviews()
         setupLayout()
     }
@@ -29,6 +34,7 @@ class OnboardingView: UIView {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
     private func configureViews() {
         self.backgroundColor = .systemGray4
     }
@@ -46,13 +52,20 @@ class OnboardingView: UIView {
     
     private func configureButtons() {
         nextButton.setupButton(title: Localizations.OnboardingVC.nextButtonTitle,
-                               titleSize: 14,
-                               titleColor: .white)
+                               titleSize: 14.0,
+                               titleColor: .white,
+                               backgroundColor: .red,
+                               cornerRadius: 20.0)
+    }
+    
+    private func setupTargets() {
+        nextButton.addTarget(self, action: #selector(nextDidPress), for: .touchDown)
     }
     
     private func addSubviews() {
         [onboardingImageView, descriptionLabel, nextButton].forEach { self.addSubview($0) }
     }
+    
     private func setupLayout() {
         onboardingImageView.frame = CGRect(x: 0, y: 0, width: 80, height: 80)
         onboardingImageView.heightAnchor.constraint(equalTo: self.heightAnchor, multiplier: 0.5).isActive = true
@@ -69,8 +82,12 @@ class OnboardingView: UIView {
         nextButton.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true
         nextButton.heightAnchor.constraint(equalToConstant: 40).isActive = true
         nextButton.widthAnchor.constraint(equalToConstant: 150).isActive = true
-        nextButton.backgroundColor = .systemRed
-        nextButton.frame = CGRect(x: 100, y: 100, width: 150, height: 50)
-        nextButton.layer.cornerRadius = 20
+    }
+}
+
+//MARK: - Actions
+extension OnboardingView {
+    @objc func nextDidPress() {
+        outputAction?.nextDidPress()
     }
 }
