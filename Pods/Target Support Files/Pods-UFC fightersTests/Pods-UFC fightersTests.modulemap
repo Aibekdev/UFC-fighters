@@ -1,0 +1,6 @@
+framework module Pods_UFC_fightersTests {
+  umbrella header "Pods-UFC fightersTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
