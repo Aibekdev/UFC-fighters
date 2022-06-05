@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D1728B0E50A1805C5EA0C65 /* Pods_UFC_fighters_UFC_fightersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C0F670285C6E7B6F3500BC /* Pods_UFC_fighters_UFC_fightersUITests.framework */; };
-		10EDF6A0FE7ACF5E94F94BC3 /* Pods_UFC_fightersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91FB5DBF399AE910356BE50 /* Pods_UFC_fightersTests.framework */; };
 		7C3544C6500CBB55CEFEBE59 /* Pods_UFC_fighters.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE46432A7CD1858485DB42DD /* Pods_UFC_fighters.framework */; };
 		A70FD27F27E1F8140096D1C5 /* FightersListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70FD27E27E1F8140096D1C5 /* FightersListVC.swift */; };
 		A780EA0B2825795000FF039D /* UIImageView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A780EA0A2825795000FF039D /* UIImageView+extensions.swift */; };
@@ -24,9 +22,6 @@
 		A7BF65F227C76BD1006405C3 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BF65F127C76BD1006405C3 /* OnboardingVC.swift */; };
 		A7BF65F727C76BD2006405C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BF65F627C76BD2006405C3 /* Assets.xcassets */; };
 		A7BF65FA27C76BD2006405C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BF65F827C76BD2006405C3 /* LaunchScreen.storyboard */; };
-		A7BF660527C76BD2006405C3 /* UFC_fightersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BF660427C76BD2006405C3 /* UFC_fightersTests.swift */; };
-		A7BF660F27C76BD2006405C3 /* UFC_fightersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BF660E27C76BD2006405C3 /* UFC_fightersUITests.swift */; };
-		A7BF661127C76BD2006405C3 /* UFC_fightersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BF661027C76BD2006405C3 /* UFC_fightersUITestsLaunchTests.swift */; };
 		A7D76CBE2847C5F900453CA5 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D76CBD2847C5F900453CA5 /* BaseRouter.swift */; };
 		A7D76CC02847C61300453CA5 /* OnboardingRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D76CBF2847C61300453CA5 /* OnboardingRouterProtocol.swift */; };
 		A7D76CC32847C64C00453CA5 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D76CC22847C64C00453CA5 /* NavigationView.swift */; };
@@ -39,23 +34,6 @@
 		A7DE4333281EF9BD00D30DA4 /* Localizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE4332281EF9BD00D30DA4 /* Localizations.swift */; };
 		A7DE4335281EFEFE00D30DA4 /* UIBotton+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE4334281EFEFE00D30DA4 /* UIBotton+extensions.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A7BF660127C76BD2006405C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7BF65E227C76BD1006405C3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A7BF65E927C76BD1006405C3;
-			remoteInfo = "UFC fighters";
-		};
-		A7BF660B27C76BD2006405C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7BF65E227C76BD1006405C3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A7BF65E927C76BD1006405C3;
-			remoteInfo = "UFC fighters";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		12CA0039C86BF37503FE42AA /* Pods-UFC fightersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UFC fightersTests.debug.xcconfig"; path = "Target Support Files/Pods-UFC fightersTests/Pods-UFC fightersTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -79,9 +57,7 @@
 		A7BF65F627C76BD2006405C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7BF65F927C76BD2006405C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7BF65FB27C76BD2006405C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7BF660027C76BD2006405C3 /* UFC fightersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UFC fightersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BF660427C76BD2006405C3 /* UFC_fightersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFC_fightersTests.swift; sourceTree = "<group>"; };
-		A7BF660A27C76BD2006405C3 /* UFC fightersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UFC fightersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BF660E27C76BD2006405C3 /* UFC_fightersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFC_fightersUITests.swift; sourceTree = "<group>"; };
 		A7BF661027C76BD2006405C3 /* UFC_fightersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFC_fightersUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A7D76CBD2847C5F900453CA5 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
@@ -107,22 +83,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C3544C6500CBB55CEFEBE59 /* Pods_UFC_fighters.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7BF65FD27C76BD2006405C3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10EDF6A0FE7ACF5E94F94BC3 /* Pods_UFC_fightersTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7BF660727C76BD2006405C3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0D1728B0E50A1805C5EA0C65 /* Pods_UFC_fighters_UFC_fightersUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,8 +162,6 @@
 			isa = PBXGroup;
 			children = (
 				A7BF65EA27C76BD1006405C3 /* UFC fighters.app */,
-				A7BF660027C76BD2006405C3 /* UFC fightersTests.xctest */,
-				A7BF660A27C76BD2006405C3 /* UFC fightersUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -374,45 +332,6 @@
 			productReference = A7BF65EA27C76BD1006405C3 /* UFC fighters.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A7BF65FF27C76BD2006405C3 /* UFC fightersTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A7BF661727C76BD2006405C3 /* Build configuration list for PBXNativeTarget "UFC fightersTests" */;
-			buildPhases = (
-				8A5A278A8BF17E5124168BB2 /* [CP] Check Pods Manifest.lock */,
-				A7BF65FC27C76BD2006405C3 /* Sources */,
-				A7BF65FD27C76BD2006405C3 /* Frameworks */,
-				A7BF65FE27C76BD2006405C3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A7BF660227C76BD2006405C3 /* PBXTargetDependency */,
-			);
-			name = "UFC fightersTests";
-			productName = "UFC fightersTests";
-			productReference = A7BF660027C76BD2006405C3 /* UFC fightersTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A7BF660927C76BD2006405C3 /* UFC fightersUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A7BF661A27C76BD2006405C3 /* Build configuration list for PBXNativeTarget "UFC fightersUITests" */;
-			buildPhases = (
-				E18437D58F543F898816CCC0 /* [CP] Check Pods Manifest.lock */,
-				A7BF660627C76BD2006405C3 /* Sources */,
-				A7BF660727C76BD2006405C3 /* Frameworks */,
-				A7BF660827C76BD2006405C3 /* Resources */,
-				C523B5572FA4F682CB280AC6 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A7BF660C27C76BD2006405C3 /* PBXTargetDependency */,
-			);
-			name = "UFC fightersUITests";
-			productName = "UFC fightersUITests";
-			productReference = A7BF660A27C76BD2006405C3 /* UFC fightersUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -425,14 +344,6 @@
 				TargetAttributes = {
 					A7BF65E927C76BD1006405C3 = {
 						CreatedOnToolsVersion = 13.0;
-					};
-					A7BF65FF27C76BD2006405C3 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = A7BF65E927C76BD1006405C3;
-					};
-					A7BF660927C76BD2006405C3 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = A7BF65E927C76BD1006405C3;
 					};
 				};
 			};
@@ -450,8 +361,6 @@
 			projectRoot = "";
 			targets = (
 				A7BF65E927C76BD1006405C3 /* UFC fighters */,
-				A7BF65FF27C76BD2006405C3 /* UFC fightersTests */,
-				A7BF660927C76BD2006405C3 /* UFC fightersUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -463,20 +372,6 @@
 			files = (
 				A7BF65FA27C76BD2006405C3 /* LaunchScreen.storyboard in Resources */,
 				A7BF65F727C76BD2006405C3 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7BF65FE27C76BD2006405C3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7BF660827C76BD2006405C3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,67 +417,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UFC fighters/Pods-UFC fighters-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8A5A278A8BF17E5124168BB2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-UFC fightersTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C523B5572FA4F682CB280AC6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UFC fighters-UFC fightersUITests/Pods-UFC fighters-UFC fightersUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UFC fighters-UFC fightersUITests/Pods-UFC fighters-UFC fightersUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UFC fighters-UFC fightersUITests/Pods-UFC fighters-UFC fightersUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E18437D58F543F898816CCC0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-UFC fighters-UFC fightersUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -616,37 +450,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7BF65FC27C76BD2006405C3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A7BF660527C76BD2006405C3 /* UFC_fightersTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7BF660627C76BD2006405C3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A7BF660F27C76BD2006405C3 /* UFC_fightersUITests.swift in Sources */,
-				A7BF661127C76BD2006405C3 /* UFC_fightersUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A7BF660227C76BD2006405C3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A7BF65E927C76BD1006405C3 /* UFC fighters */;
-			targetProxy = A7BF660127C76BD2006405C3 /* PBXContainerItemProxy */;
-		};
-		A7BF660C27C76BD2006405C3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A7BF65E927C76BD1006405C3 /* UFC fighters */;
-			targetProxy = A7BF660B27C76BD2006405C3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A7BF65F827C76BD2006405C3 /* LaunchScreen.storyboard */ = {
@@ -834,106 +638,6 @@
 			};
 			name = Release;
 		};
-		A7BF661827C76BD2006405C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12CA0039C86BF37503FE42AA /* Pods-UFC fightersTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S3PKQ6K35V;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Aibek.UFC-fightersTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UFC fighters.app/UFC fighters";
-			};
-			name = Debug;
-		};
-		A7BF661927C76BD2006405C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84A6839F6EB6B066392EA4A6 /* Pods-UFC fightersTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S3PKQ6K35V;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Aibek.UFC-fightersTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UFC fighters.app/UFC fighters";
-			};
-			name = Release;
-		};
-		A7BF661B27C76BD2006405C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94A813BA5A6D64568983B788 /* Pods-UFC fighters-UFC fightersUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S3PKQ6K35V;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Aibek.UFC-fightersUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "UFC fighters";
-			};
-			name = Debug;
-		};
-		A7BF661C27C76BD2006405C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F102205CD177D0AAC1DC91AF /* Pods-UFC fighters-UFC fightersUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S3PKQ6K35V;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Aibek.UFC-fightersUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "UFC fighters";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -951,24 +655,6 @@
 			buildConfigurations = (
 				A7BF661527C76BD2006405C3 /* Debug */,
 				A7BF661627C76BD2006405C3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A7BF661727C76BD2006405C3 /* Build configuration list for PBXNativeTarget "UFC fightersTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A7BF661827C76BD2006405C3 /* Debug */,
-				A7BF661927C76BD2006405C3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A7BF661A27C76BD2006405C3 /* Build configuration list for PBXNativeTarget "UFC fightersUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A7BF661B27C76BD2006405C3 /* Debug */,
-				A7BF661C27C76BD2006405C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
