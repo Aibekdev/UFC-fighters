@@ -57,9 +57,6 @@
 		A7BF65F627C76BD2006405C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7BF65F927C76BD2006405C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7BF65FB27C76BD2006405C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7BF660427C76BD2006405C3 /* UFC_fightersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFC_fightersTests.swift; sourceTree = "<group>"; };
-		A7BF660E27C76BD2006405C3 /* UFC_fightersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFC_fightersUITests.swift; sourceTree = "<group>"; };
-		A7BF661027C76BD2006405C3 /* UFC_fightersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFC_fightersUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A7D76CBD2847C5F900453CA5 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
 		A7D76CBF2847C61300453CA5 /* OnboardingRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingRouterProtocol.swift; sourceTree = "<group>"; };
 		A7D76CC22847C64C00453CA5 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
@@ -150,8 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				A7BF65EC27C76BD1006405C3 /* UFC fighters */,
-				A7BF660327C76BD2006405C3 /* UFC fightersTests */,
-				A7BF660D27C76BD2006405C3 /* UFC fightersUITests */,
 				A7BF65EB27C76BD1006405C3 /* Products */,
 				3B1ACA4B832BF56A72F33041 /* Pods */,
 				2A0E0947783B4E9FFB3BB8D6 /* Frameworks */,
@@ -181,23 +176,6 @@
 				A7BF65FB27C76BD2006405C3 /* Info.plist */,
 			);
 			path = "UFC fighters";
-			sourceTree = "<group>";
-		};
-		A7BF660327C76BD2006405C3 /* UFC fightersTests */ = {
-			isa = PBXGroup;
-			children = (
-				A7BF660427C76BD2006405C3 /* UFC_fightersTests.swift */,
-			);
-			path = "UFC fightersTests";
-			sourceTree = "<group>";
-		};
-		A7BF660D27C76BD2006405C3 /* UFC fightersUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A7BF660E27C76BD2006405C3 /* UFC_fightersUITests.swift */,
-				A7BF661027C76BD2006405C3 /* UFC_fightersUITestsLaunchTests.swift */,
-			);
-			path = "UFC fightersUITests";
 			sourceTree = "<group>";
 		};
 		A7D76CBC2847C5E000453CA5 /* Routers */ = {
